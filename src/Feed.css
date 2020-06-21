@@ -19,14 +19,17 @@
    
 }
 .user_avatar{
+    display:flex;
+    align-items: center;
+    
    margin-left: 25px;
    margin-right: 5px;
    margin-top: 5px;
+   padding: 10px;
 }
-.box h6{
- 
+.user_avatar h6{
+    margin-left: 10px;
 }
-
 .box p{
     text-align: justify;
     margin-left: 25px;

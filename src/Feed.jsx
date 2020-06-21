@@ -17,14 +17,17 @@ class Feed extends React.Component {
         return (
             <div className="container">
                 <div className="box" key={index}>
-                <Avatar className="user_avatar" style={{float:'left'}} alt="avatar" src="" />
-                <h6>{post.user}</h6><br/>
+                <div className="user_avatar">
+                <Avatar  style={{float:'left'}} variant="square" alt="avatar" src="" />
+                <h6>{post.user}</h6>
+                </div>
                 <Divider/>
-                <p> {post.content} </p>
+                <p style={{fontSize:'15px'}}> {post.content} </p>
                 <Divider variant="middle"/>
                 <div className="likes_comments">
                     
                     <p style={{fontSize:'15px'}} className="likes"> Likes: {post.noOfLikes} </p>
+                   
                     <Comments data={post.comments}/>   
                 </div>
             </div>
