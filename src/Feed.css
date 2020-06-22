@@ -22,11 +22,12 @@
     display:flex;
     align-items: center;
     
-   margin-left: 25px;
+   margin-left: 20px;
    margin-right: 5px;
    margin-top: 5px;
    padding: 10px;
 }
+
 .user_avatar h6{
     margin-left: 10px;
 }
@@ -34,13 +35,27 @@
     text-align: justify;
     margin-left: 25px;
     margin-right: 25px;
+    font-size: 15px;
 }
 .likes_comments {
     display: flex;
     flex-direction: row;
     padding: 10px;
+   
+    margin-left: 20px;
 }
 
 .likes {
     margin-right: 5px;
+    margin-top: 10px;
+}
+.post_comment{
+    border-radius: 10px;
+    background-color: grey;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 5px;
+}
+.post_image{
+    width:100%;
 }
